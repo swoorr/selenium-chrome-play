@@ -19,3 +19,5 @@ what you want to search on youtube
 for fun!
 
 selenium-playground-for-me
+
+![screenshot](https://github.com/swoorr/selenium-chrome-play/blob/main/out.png?raw=true "screenshot")
