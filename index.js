@@ -7,7 +7,7 @@ const { Driver, Builder, By, Key, until } = require('selenium-webdriver');
 var chrome = require('selenium-webdriver/chrome');
 let driver = new Builder()
 .forBrowser('chrome')
-    .setChromeOptions(new chrome.Options().headless().windowSize({width:1366,height:768}))
+    .setChromeOptions(eval(`new chrome.Options().windowSize({width:1366,height:768})`))
     .withCapabilities({
         browserName: 'chrome',
         chromeOptions: { args: ['user-agent="iphone ios apple iphone 8'] }
